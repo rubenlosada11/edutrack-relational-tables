@@ -1,15 +1,15 @@
-# EduTrack — Relational Data Audit
+# EduTrack — Auditoría de datos relacional
 
-SQL audit of the normalized EduTrack database (`students`, `courses`, `enrollments`) using PostgreSQL on Supabase.
+Auditoría SQL de la base de datos normalizada de EduTrack (`students`, `courses`, `enrollments`) con PostgreSQL en Supabase.
 
-## Deliverables
+## Entregables
 
-- `diagram.png` — entity-relationship diagram.
-- `queries.sql` — ten audit queries using INNER JOIN, LEFT JOIN and aggregations.
-- `analysis_report.md` — audit report with the real query results.
+- `diagram.png`: diagrama entidad-relación.
+- `queries.sql`: diez consultas de auditoría con INNER JOIN, LEFT JOIN y agregaciones.
+- `analysis_report.md`: informe de auditoría con los resultados reales de las consultas.
 
 ## Dataset
 
-The original dataset (`edutrack_v2.sql`) is provided by 4Geeks Academy and is not versioned in this repository:
+El dataset original (`edutrack_v2.sql`) lo proporciona 4Geeks Academy y no se versiona en este repositorio:
 
 https://raw.githubusercontent.com/4GeeksAcademy/ai-engineering-syllabus/refs/heads/main/content/projects/edutrack-data-audit-sql-related-tables/edutrack_v2.sql
