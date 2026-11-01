@@ -1,0 +1,11 @@
+# Local copy of the original dataset (not versioned)
+data/
+
+# Environment and credentials
+.env
+.env.*
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
